@@ -1,0 +1,20 @@
+.container {
+    padding: .9rem 1.8rem;
+    background-color: var(--white);
+    border: 1px solid var(--grey-dark);
+    height: 4rem;
+    border-radius: 1.6rem;
+    cursor: pointer;
+    font-weight: 500;
+}
+
+.container:hover {
+    background-color: var(--main-color);
+    border-color: var(--main-color);
+    color: white;
+
+}
+
+.span {
+
+}
