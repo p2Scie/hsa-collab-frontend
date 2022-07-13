@@ -106,7 +106,8 @@ export default function Home({sectors}) {
 }
 
 export async function getStaticProps() {
-    const url = `${process.env.NEXT_PUBLIC_STRAPI_URL}/team-compositions?populate[group][populate]=*`
+
+    const url = 'https://hsa-collab-backend.herokuapp.com/api/team-compositions?populate[group][populate]=*'
     console.log(url)
     const sectorsRes = await fetcher(url);
     console.log(sectorsRes)
