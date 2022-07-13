@@ -105,7 +105,7 @@ export default function Home({sectors}) {
     )
 }
 
-export async function getStaticProps() {
+export async function getServerSideProps(){
 
     const url = 'https://hsa-collab-backend.herokuapp.com/api/team-compositions?populate[group][populate]=*'
     console.log(url)
